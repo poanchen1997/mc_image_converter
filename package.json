@@ -1,0 +1,49 @@
+{
+  "name": "mc_image_converter",
+  "description": "",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "prismarine-nbt": "^2.7.0"
+  },
+  "devDependencies": {
+    "canvas": "^3.1.0",
+    "electron": "^34.0.1",
+    "electron-builder": "^25.1.8",
+    "electron-rebuild": "^3.2.9",
+    "nbtify": "^2.2.0",
+    "prismarine-nbt": "^2.7.0",
+    "sharp": "^0.33.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poanchen1997/mc_image_converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poanchen1997/mc_image_converter/issues"
+  },
+  "homepage": "https://github.com/poanchen1997/mc_image_converter#readme",
+  "build": {
+    "appId": "com.example.mcnbt",
+    "productName": "Minecraft NBT Converter",
+    "files": [
+      "**/*"
+    ],
+    "mac": {
+      "target": "dmg"
+    },
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
