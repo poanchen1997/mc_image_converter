@@ -28,7 +28,9 @@ There are lots of mod that can convert nbt structure plan to a real building in 
 Of course, building by your own hand is also an option, use the "nbt viewer" extension of vscode, you can 3D-lize your nbt file. And you can base on that to build your own structures.
 
 ![res_1](Readme_image/s4_1.png)
+
 This is the result I get for test1 with 0.7 scale, if you look closer, every pixel is build by minecraft block, using some block with multiple color in one block will make the result more fancy.
+
 ![res_2](Readme_image/s4_2.png)
 
 ---
